@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.bg-sosial{
+    background-color: #FFC700;
+    height: 30px;
+    padding-top: 5px;
+}
+.t-sos{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+}
+.link-sos{
+    font-weight: 500;
+    color: #000;
+    font-size: 13px;
+}
+
+.link-sos1{
+    color: #000;
+    text-decoration: underline;
+}
+
+.logo{
+    width: 170px;
+}
+
+.t-nav{
+    width: 115px;
+    font-weight: 500;
+    color: #000;
+}
+.t-nav:hover{
+    color: #FFC700;
+}
+
+.hero{
+    margin-top: 120px;
+}
+
+.j-hero{
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.i-hero{
+    color: #FFC700;
+    font-size: 18px;
+}
+.d-hero{
+    font-size: 16px;
+    opacity: 80%;
+    font-weight: 400;
+}
+.foto-hero{
+    max-width: 85%;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.button-hero{
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    background-color: #FFC700;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0 ,0.1);
+}
+.button-hero:hover{
+    background-color: #f8ce36;
+    color: rgb(0, 0, 0);
+}
+
+.link-b{
+    text-decoration: underline;
+    color: #000;
+    font-weight: 500;
+    margin-left: 3px;
+}
+.link-b:hover{
+    color: rgb(43, 43, 43);
+}
+.arrow{
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#opening{
+    background-color: #FFC700;
+    padding: 40px;
+}
+.t-open{
+    color: #000;
+}
+.r-open{
+    justify-content: center;
+
+}
+
+.foto-section2{
+    width: 900px;
+    margin: auto;
+    
+
+}
+.j-utama{
+    font-size: 16px;
+    color: #FFC700;
+    font-weight: 600;
+}
+.d-utama{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    line-height: 2.8rem;
+}
+.hr-om{
+    border: 1px solid rgb(126, 126, 126);
+
+    justify-content: center;
+    margin: auto;
+
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.foto-s4{
+    width: 400px;
+}
+
+.btn-turu{
+    outline: none;
+    border: none;
+    background-color: #FFC700;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0 ,0.1);
+}
+.btn-turu:hover{
+    background-color: #f8ce36;
+    color: rgb(0, 0, 0);
+}
+.j-turu{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 2.8rem;
+    color: #000;
+}
+
+.j-name{
+    color: #FFC700;
+    font-size: 18px;
+    font-weight: 600;
+}
+.d-name{
+    font-weight: 600;
+    color: #000;
+    font-size: 28px;
+    line-height: 2rem;
+}
+
+.foto-murid{
+    width: 80px;
+}
+.murid{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.murid1{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin: auto;
+}
+.murid2{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.murid3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.t-murid{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.t-dev{
+    color: #FFC700;
+}
+.d-dev{
+    color: #000;
+    font-weight: 600;
+}
+
+.garis-ketik::after {
+    content: "|";
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FFC700;
+    color: white;
+    cursor: pointer;
+    padding: 15px ;
+    border-radius: 100px;
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(10px);
+    transition: .5s all cubic-bezier(0.175, 0.885, 0.320, 1.725);
+  }
+.myBtn-active {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+    filter: blur(0px) !important;
+}
+#myBtn:hover {
+    background-color: #f8ce36;
+  }
