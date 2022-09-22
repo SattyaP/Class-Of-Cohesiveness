@@ -146,6 +146,9 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    html{
+        overflow-x: hidden;
+    }
     /* link */
     .t-sos {
         font-size: 10px;
@@ -324,6 +327,10 @@
 
 
 @media (max-width: 320px) {
+
+    html{
+        overflow-x: hidden;
+    }
     /* link */
     .t-sos {
         font-size: 10px;
