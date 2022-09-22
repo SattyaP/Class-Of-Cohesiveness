@@ -9,10 +9,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/Lamp.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsive.css">
 
     <style>
         html{
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
     </style>
 </head>
@@ -22,8 +24,9 @@
 
     <!-- Social-media -->
     <section id="socialmedia">
+        <span class="close">x</span>
         <div class="bg-sosial">
-            <p class="text-center t-sos">Ini website kelas, kepo Instagram kita ? kunjungi <span class="link-sos"><a class="link-sos1"  href="">link ini</a></span></p>
+            <p class="text-center t-sos" >Ini website kelas, kepo Instagram kita ? kunjungi <span class="link-sos"><a class="link-sos1"  href="">link ini </a></span></p>
         </div>
     </section>
 
@@ -33,10 +36,14 @@
             <a href=""><img class="logo" src="img/logo.png" alt=""></a>
 
             <ul class="navbar-nav">
-                <li class="t-nav"><a class="t-nav" href="">Home</a></li>
-                <li class="t-nav"><a class="t-nav" href="#utama">About Us</a></li>
-                <li class="t-nav "><a class="t-nav" href="">Student</a></li>
-                <li class="t-nav"><a class="t-nav" href="">Gallery</a></li>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li class="t-nav"><a class="t-nav" href="">Home</a></li>
+                    <li class="t-nav"><a class="t-nav" href="#utama">About Us</a></li>
+                    <li class="t-nav "><a class="t-nav" href="">Student</a></li>
+                    <li class="t-nav"><a class="t-nav" href="">Gallery</a></li>
+                </div>
             </ul>
         </div>
     </navbar>
@@ -47,7 +54,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <h5 class="i-hero">100% Class That Prioritizes Cohesiveness</h5>
-                    <h2 class="mt-2 mb-2 j-hero">Halo Kamu, <span style="font-weight: 600; font-size: 34px; ">Orang Baik !!</span> <br> <span class="animate-text-1" style="font-weight: 600; font-size: 34px;">Selamat Datang</span> <br> Di Website Kelas XII MM3
+                    <h2 class="mt-2 mb-2 j-hero">Halo Kamu, <span class="baik">Orang Baik !!</span> <br> <span class="animate-text-1 baik">Selamat Datang</span><span id="garis"></span> <br> Di Website Kelas XII MM3
                     </h2>
                     <p class="d-hero">Daily kegiatan MM3 , Jadwal , Galery , Duta turu <br> serta tentang kami.</p>
                     <button type="button" class="button-hero">Kepo Lah</button>
@@ -62,21 +69,21 @@
         </div>
     </section>
 
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
 
     <!-- opening -->
     <section id="opening">
-        <div class="container p-2">
+        <div class="container p-2 opening">
             <div class="row r-open">
-                <div class="col-lg-3 col-md-12">
+                <div class="col-lg-3 col-md-3">
                     <h2 class="t-open">37</h1>
                     <p class="d-open">Siswa Dikelas</p>
                 </div>
-                <div class="col-lg-5 col-md-12">
+                <div class="col-lg-5 col-md-6">
                     <h2 class="t-open">UNLIMITED KENANGAN</h2>
                     <p class="d-open">Tingkah laku teman - teman</p>
                 </div>
-                <div class="col-lg-3 col-md-12">
+                <div class="col-lg-3 col-md-3">
                     <h2 class="t-open">ALL</h2>
                     <p class="d-open">Duta turu kabeh</p>
                 </div>
@@ -88,7 +95,7 @@
 
     <!-- utama -->
     <section id="utama">
-        <div class="container">
+        <div class="container utama">
             <div class="row">
                 <img class="foto-section2 mb-5 mt-5" src="img/section2.png" alt="">
 
@@ -97,7 +104,7 @@
                     <h2 class="d-utama mt-2"><span style="font-weight: 600;color: #000;">Sakjane kelas</span> Opo Se Iki ? <br> Sini Tak<span style="font-weight: 600;"> Kasih</span> Tau.</h2>
                 </div>
                 <div class="col-lg-6 col-md-12 mt-3">
-                    <p>Kelas dengan jurusan multimedia berfokus pada kegiatan editing,
+                    <p class="t-utama">Kelas dengan jurusan multimedia berfokus pada kegiatan editing,
                         serta design dan meliputi foto dan video. 
                         Iku formal e kelas XII MM3 iki kelas seng isine arek arek pinter tapi yo... 
                         kadang mbleler tapi okela akeh kenangan seru tekan arek arek 
@@ -118,14 +125,14 @@
 
     <!-- Turu -->
     <section id="turu">
-        <div class="container">
+        <div class="container turu">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <img class="img-fluid foto-s4" src="img/section4.png" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <h2 class="j-turu">Selalu <span style="font-weight: 600;">Turu</span> Dimanpun Berada. <br><span style="font-weight: 600;">Turu In Everywhere</span></h2>
-                    <p class="mt-2 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="mt-2 mb-4 d-turu">Lorem Ipsum is simply dummy text of the printing and typesetting
                         Lorem Ipsum has been the industry's standard dummy text ever
                         1500s, when an unknown printer took a galley of type and 
                         make a type specimen book. It has survived not only five 
@@ -318,16 +325,16 @@
 
     <br><br>
 
-    <div class="container">
+    <div class="container developer                                                                                                                                                                         ">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <h5 style="font-weight: 500; color: #FFC700;">Saluran Online</h5>
-                <h1 style="font-weight: 600; color: #000;">Social Media Kami</h1>
+                <h5 class="t-dev">Saluran Online</h5>
+                <h1 class="d-dev">Social Media Kami</h1>
             </div>
             <div class="col-lg-6 col-md-12">
                 <h5 class="t-dev">Developer</h5>
                 <h1 class="d-dev">Developed By</h1>
-                <h5>Sattya ft. Faeest</h5>
+                <h5 class="name-dev">Sattya ft. Faeest</h5>
             </div>
         </div>
     </div>

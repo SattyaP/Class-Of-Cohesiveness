@@ -25,7 +25,7 @@ function scrollFunction() {
 }
 
 let animGaris = window.setInterval(() => {
-  $(".animate-text-1").toggleClass("garis-ketik")
+  $("#garis").toggleClass("garis-ketik")
 }, 750);
 
 let animText = window.setInterval(() => {
@@ -65,4 +65,13 @@ const animateHeroText = (e) => {
       }, x * interv);
     });
   }, currentText.length * interv + 50);
+}
+
+var closebtns = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
 }
