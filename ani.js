@@ -52,7 +52,7 @@ const animateHeroText = (e) => {
   let interv = 70,
     textTo = e,
     currentText = $(".animate-text-1").text();
-  console.log(currentText);
+  // console.log(currentText);
   currentText.split('').forEach((e, x) => {
     window.setTimeout(() => {
       $(".animate-text-1").text(currentText.slice(0, -(x + 1)))
@@ -75,3 +75,6 @@ for (i = 0; i < closebtns.length; i++) {
     this.parentElement.style.display = 'none';
   });
 }
+
+
+

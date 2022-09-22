@@ -19,8 +19,8 @@
     /* navbar */
     .menu {
         display: none;
-        position: absolute ;
-        background-color: #FFC700;
+        position: absolute;
+        background-color: rgba(255, 255, 255);
         top: 70px;
         right: 0;
         left: 0;
@@ -48,72 +48,82 @@
         font-size: 12px;
     }
 
+    .b-bottom {
+        display: block;
+        width: 95%;
+    }
+
     /* hero */
-    .hero{
+    .hero {
         text-align: center;
         margin-top: 60px;
     }
-    .foto-hero{
+
+    .foto-hero {
         max-width: 55%;
         margin: 40px 0px 0px 0px;
         align-items: center;
     }
 
     /* opening */
-    .r-open{
+    .r-open {
         text-align: center;
     }
 
     .t-open,
-    .d-open{
+    .d-open {
         font-size: 18px;
     }
 
-    #opening{
+    #opening {
         padding: 30px 0px 16px 0px;
     }
 
     /* utama */
 
-    .foto-section2{
+    .foto-section2 {
         width: 100%;
     }
 
     /* turu */
-    .turu{
+    .turu {
         text-align: center;
     }
-    .foto-s4{
+
+    .foto-s4 {
         width: 60%;
     }
-    .j-turu{
+
+    .j-turu {
         font-size: 28px;
         margin-top: 40px;
         line-height: 2.4rem;
     }
-    .d-turu{
+
+    .d-turu {
         font-size: 16px;
     }
-    
+
     /* nama teman */
-    .foto-murid{
+    .foto-murid {
         width: 100%;
         padding: 4px;
     }
-    .t-murid{
+
+    .t-murid {
         font-size: 14px;
     }
 
-    .murid3{
+    .murid3 {
         width: 85%;
     }
-    
+
     /* develop */
-    .developer{
+    .developer {
         text-align: center;
     }
 
-    .close{
+    .close {
         padding: 30px 42px;
     }
 }
@@ -123,10 +133,7 @@
     ##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-     
-
-}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -146,9 +153,10 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    html{
+    html {
         overflow-x: hidden;
     }
+
     /* link */
     .t-sos {
         font-size: 10px;
@@ -157,27 +165,28 @@
     .link-sos1 {
         font-size: 10px;
     }
-    .close{
+
+    .close {
         display: none;
     }
 
     /* navbar */
     .menu {
         display: none;
-        position: absolute ;
-        background-color: #FFC700;
-        top: 60px;
+        position: absolute;
+        background-color: rgba(255, 255, 255);
+        top: 55px;
         right: 0;
         left: 0;
         text-align: left;
         padding: 10px 0px 10px 15px;
     }
 
-    .t-nav{
+    .t-nav {
         font-size: 14px;
     }
 
-    .logo{
+    .logo {
         width: 130px;
     }
 
@@ -194,130 +203,153 @@
         font-size: 20px;
     }
 
+    .b-bottom {
+        display: block;
+    }
+
 
     /* hero */
-    .hero{
+    .hero {
         text-align: center;
         margin-top: 60px;
     }
-    .foto-hero{
+
+    .foto-hero {
         max-width: 70%;
         margin: 40px 0px 0px 0px;
         align-items: center;
     }
 
-    .i-hero{
-        font-size: 12px;
-    }
-    .j-hero{
-        font-size: 24px;
-        line-height: 2.2rem;
-    }
-    .baik{
-        font-size: 24px;
-    }
-    .d-hero{
+    .i-hero {
         font-size: 12px;
     }
 
-    .button-hero{
+    .j-hero {
+        font-size: 24px;
+        line-height: 2.2rem;
+    }
+
+    .baik {
+        font-size: 24px;
+    }
+
+    .d-hero {
+        font-size: 12px;
+    }
+
+    .button-hero {
         padding: 10px 25px;
         font-size: 12px;
     }
-    .link-b{
+
+    .link-b {
         font-size: 12px;
     }
-    .arrow{
+
+    .arrow {
         width: 24px;
         margin-left: 6px;
     }
 
     /* opening */
-    .r-open{
+    .r-open {
         text-align: center;
     }
 
     .t-open,
-    .d-open{
+    .d-open {
         font-size: 14px;
     }
 
-    #opening{
+    #opening {
         padding: 10px 0px 0px 0px;
     }
 
     /* utama */
-    #utama{
+    #utama {
         text-align: center;
     }
-    .foto-section2{
+
+    .foto-section2 {
         width: 100%;
     }
 
-    .j-utama{
+    .j-utama {
         font-size: 12px;
     }
-    .d-utama{
+
+    .d-utama {
         font-size: 24px;
         line-height: 2rem;
     }
-    .t-utama{
+
+    .t-utama {
         font-size: 10px;
         margin-top: -10px;
     }
 
     /* turu */
-    .turu{
+    .turu {
         text-align: center;
     }
-    .foto-s4{
+
+    .foto-s4 {
         width: 60%;
     }
-    .j-turu{
+
+    .j-turu {
         font-size: 20px;
         margin-top: 40px;
         line-height: 2rem;
     }
-    .d-turu{
+
+    .d-turu {
         font-size: 12px;
     }
-    .btn-turu{
+
+    .btn-turu {
         padding: 10px 25px;
         font-size: 12px;
     }
-    
+
     /* nama teman */
-    .foto-murid{
+    .foto-murid {
         width: 100%;
         display: none;
         padding: 4px;
     }
-    .t-murid{
+
+    .t-murid {
         font-size: 14px;
         display: none;
     }
-    .j-name{
+
+    .j-name {
         font-size: 14px;
     }
-    .d-name{
+
+    .d-name {
         font-size: 20px;
     }
 
-    .murid3{
+    .murid3 {
         width: 85%;
     }
-    
+
     /* develop */
-    .developer{
+    .developer {
         text-align: center;
-    }    
-    .t-dev{
+    }
+
+    .t-dev {
         font-size: 14px;
     }
-    .d-dev{
+
+    .d-dev {
         font-size: 20px;
     }
-    .name-dev{
+
+    .name-dev {
         font-size: 14px;
         color: #000;
         text-decoration: underline 1px #e4b610;
@@ -328,9 +360,10 @@
 
 @media (max-width: 320px) {
 
-    html{
+    html {
         overflow-x: hidden;
     }
+
     /* link */
     .t-sos {
         font-size: 10px;
@@ -339,27 +372,33 @@
     .link-sos1 {
         font-size: 10px;
     }
-    .close{
+
+    .close {
         display: none;
     }
 
     /* navbar */
     .menu {
         display: none;
-        position: absolute ;
-        background-color: #FFC700;
-        top: 60px;
+        position: absolute;
+        background-color: rgba(255, 255, 255);
+        top: 55px;
         right: 0;
         left: 0;
         text-align: left;
         padding: 10px 0px 10px 15px;
+
     }
 
-    .t-nav{
+    .b-bottom {
+        display: block;
+    }
+
+    .t-nav {
         font-size: 14px;
     }
 
-    .logo{
+    .logo {
         width: 130px;
     }
 
@@ -378,128 +417,147 @@
 
 
     /* hero */
-    .hero{
+    .hero {
         text-align: center;
         margin-top: 60px;
     }
-    .foto-hero{
+
+    .foto-hero {
         max-width: 70%;
         margin: 40px 0px 0px 0px;
         align-items: center;
     }
 
-    .i-hero{
-        font-size: 12px;
-    }
-    .j-hero{
-        font-size: 20px;
-        line-height: 2.2rem;
-    }
-    .baik{
-        font-size: 24px;
-    }
-    .d-hero{
+    .i-hero {
         font-size: 12px;
     }
 
-    .button-hero{
+    .j-hero {
+        font-size: 20px;
+        line-height: 2.2rem;
+    }
+
+    .baik {
+        font-size: 24px;
+    }
+
+    .d-hero {
+        font-size: 12px;
+    }
+
+    .button-hero {
         padding: 10px 25px;
         font-size: 12px;
     }
-    .link-b{
+
+    .link-b {
         font-size: 12px;
     }
-    .arrow{
+
+    .arrow {
         width: 24px;
         margin-left: 6px;
     }
 
     /* opening */
-    .r-open{
+    .r-open {
         text-align: center;
     }
 
     .t-open,
-    .d-open{
+    .d-open {
         font-size: 14px;
     }
 
-    #opening{
+    #opening {
         padding: 10px 0px 0px 0px;
     }
 
     /* utama */
-    #utama{
+    #utama {
         text-align: center;
     }
-    .foto-section2{
+
+    .foto-section2 {
         width: 100%;
     }
 
-    .j-utama{
+    .j-utama {
         font-size: 12px;
     }
-    .d-utama{
+
+    .d-utama {
         font-size: 20px;
         line-height: 2rem;
     }
-    .t-utama{
+
+    .t-utama {
         font-size: 10px;
         margin-top: -10px;
     }
 
     /* turu */
-    .turu{
+    .turu {
         text-align: center;
     }
-    .foto-s4{
+
+    .foto-s4 {
         width: 60%;
     }
-    .j-turu{
+
+    .j-turu {
         font-size: 18px;
         margin-top: 40px;
         line-height: 2rem;
     }
-    .d-turu{
+
+    .d-turu {
         font-size: 14px;
     }
-    .btn-turu{
+
+    .btn-turu {
         padding: 10px 25px;
         font-size: 12px;
     }
-    
+
     /* nama teman */
-    .foto-murid{
+    .foto-murid {
         width: 100%;
         display: none;
         padding: 4px;
     }
-    .t-murid{
+
+    .t-murid {
         font-size: 14px;
         display: none;
     }
-    .j-name{
+
+    .j-name {
         font-size: 14px;
     }
-    .d-name{
+
+    .d-name {
         font-size: 20px;
     }
 
-    .murid3{
+    .murid3 {
         width: 85%;
     }
-    
+
     /* develop */
-    .developer{
+    .developer {
         text-align: center;
-    }    
-    .t-dev{
+    }
+
+    .t-dev {
         font-size: 14px;
     }
-    .d-dev{
+
+    .d-dev {
         font-size: 20px;
     }
-    .name-dev{
+
+    .name-dev {
         font-size: 14px;
         color: #000;
         text-decoration: underline 1px #e4b610;
