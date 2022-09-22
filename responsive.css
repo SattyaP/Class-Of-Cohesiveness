@@ -142,7 +142,208 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    /* CSS */
+    html {
+        overflow-x: hidden;
+    }
+
+    /* link */
+    .t-sos {
+        font-size: 10px;
+    }
+
+    .link-sos1 {
+        font-size: 10px;
+    }
+
+    .close {
+        display: none;
+    }
+
+    /* navbar */
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255);
+        top: 55px;
+        right: 0;
+        left: 0;
+        text-align: left;
+        padding: 10px 0px 10px 15px;
+    }
+
+    .t-nav {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .menu li+li {
+        margin-top: 8px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 20px;
+    }
+
+    .b-bottom {
+        display: block;
+    }
+
+
+    /* hero */
+    .hero {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .foto-hero {
+        max-width: 70%;
+        margin: 40px 0px 0px 0px;
+        align-items: center;
+    }
+
+    .i-hero {
+        font-size: 12px;
+    }
+
+    .j-hero {
+        font-size: 24px;
+        line-height: 2.2rem;
+    }
+
+    .baik {
+        font-size: 24px;
+    }
+
+    .d-hero {
+        font-size: 12px;
+    }
+
+    .button-hero {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .link-b {
+        font-size: 12px;
+    }
+
+    .arrow {
+        width: 24px;
+        margin-left: 6px;
+    }
+
+    /* opening */
+    .r-open {
+        text-align: center;
+    }
+
+    .t-open,
+    .d-open {
+        font-size: 14px;
+    }
+
+    #opening {
+        padding: 10px 0px 0px 0px;
+    }
+
+    /* utama */
+    #utama {
+        text-align: center;
+    }
+
+    .foto-section2 {
+        width: 100%;
+    }
+
+    .j-utama {
+        font-size: 12px;
+    }
+
+    .d-utama {
+        font-size: 24px;
+        line-height: 2rem;
+    }
+
+    .t-utama {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    /* turu */
+    .turu {
+        text-align: center;
+    }
+
+    .foto-s4 {
+        width: 60%;
+    }
+
+    .j-turu {
+        font-size: 20px;
+        margin-top: 40px;
+        line-height: 2rem;
+    }
+
+    .d-turu {
+        font-size: 12px;
+    }
+
+    .btn-turu {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    /* nama teman */
+    .foto-murid {
+        width: 100%;
+        display: none;
+        padding: 4px;
+    }
+
+    .t-murid {
+        font-size: 14px;
+        display: none;
+    }
+
+    .j-name {
+        font-size: 14px;
+    }
+
+    .d-name {
+        font-size: 20px;
+    }
+
+    .murid3 {
+        width: 85%;
+    }
+
+    /* develop */
+    .developer {
+        text-align: center;
+    }
+
+    .t-dev {
+        font-size: 14px;
+    }
+
+    .d-dev {
+        font-size: 20px;
+    }
+
+    .name-dev {
+        font-size: 14px;
+        color: #000;
+        text-decoration: underline 1px #e4b610;
+    }
+
 
 }
 
