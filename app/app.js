@@ -4,7 +4,6 @@ import { smoothScroll as smScroll } from "./utils/smoothScroll.js";
 import { refreshScroll as rfScroll } from "./utils/refreshScroll.js";
 import { customElementEs5Adapter as particleAdapter } from "./utils/particles/custom-elements-es5-adapter.js";
 import { webComponentsLoader } from "./utils/particles/webcomponents-loader.js";
-import * as locomotive from "./utils/LocomotiveScroll.js";
 
 //back to top
 jqScroll();
