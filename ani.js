@@ -11,9 +11,15 @@ $(document).ready(function () {
     }
   });
 });
+function smoothScroll(target) {
+  $('html, body').animate({
+    scrollTop: $(target).offset().top - $("nav.navbar").outerHeight()
+    }, 1000);
+}
 
 window.onscroll = scrollFunction;
 
+//utils
 function scrollFunction() {
 
   if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260) {
@@ -48,6 +54,7 @@ const animationToggleOff = () => {
 }
 // animationToggleOff() 
 
+//utils
 const animateHeroText = (e) => {
   let interv = 70,
     textTo = e,

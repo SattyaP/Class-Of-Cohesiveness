@@ -11,12 +11,17 @@
 
 
 .navbar {
+    transition: all .5s ease;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.40);
     backdrop-filter: blur(8px);
+}
+.navbar.hide {
+    transform: translateY(-50px);
+    opacity: 0;
 }
 
 .menu {
@@ -67,6 +72,8 @@ input[type=checkbox] {
 }
 
 .t-nav {
+    transition: all .225s ease;
+    cursor: pointer;
     width: 115px;
     font-weight: 500;
     color: #000;
@@ -325,3 +332,30 @@ input[type=checkbox] {
     padding: 12px 16px;
     color: #000;
 }
+#garis {
+    font-weight: 500 !important;
+}
+#socialmedia {
+    transition: all .5s ease;
+}
+.dissmised {
+    opacity: 0;
+    margin-top: -30px;
+}
+canvas {
+    display: block;
+  }
+  /* ---- tsparticles container ---- */
+  #tsparticles {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff00;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+  }
