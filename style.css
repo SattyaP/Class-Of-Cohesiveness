@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
     scroll-behavior: smooth;
 }
 
-
 .navbar {
-    transition: all .5s ease;
+    transition: all 0.5s ease;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.40);
+    background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(8px);
 }
 .navbar.hide {
@@ -33,7 +32,7 @@
     padding: 5px 14px;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
     display: none;
 }
 
@@ -45,7 +44,7 @@ input[type=checkbox] {
 }
 
 .bg-sosial {
-    background-color: #FFC700;
+    background-color: #ffc700;
     height: 30px;
     padding-top: 5px;
 }
@@ -72,7 +71,7 @@ input[type=checkbox] {
 }
 
 .t-nav {
-    transition: all .225s ease;
+    transition: all 0.225s ease;
     cursor: pointer;
     width: 115px;
     font-weight: 500;
@@ -80,14 +79,13 @@ input[type=checkbox] {
 }
 
 .t-nav:hover {
-    color: #FFC700;
+    color: #ffc700;
 }
 
 .b-bottom {
     display: none;
     width: 280px;
     border-bottom: 1px solid rgb(119, 119, 119);
-
 }
 
 .hero {
@@ -107,7 +105,7 @@ input[type=checkbox] {
 }
 
 .i-hero {
-    color: #FFC700;
+    color: #ffc700;
     font-size: 18px;
 }
 
@@ -127,7 +125,7 @@ input[type=checkbox] {
     margin-top: 5px;
     outline: none;
     border: none;
-    background-color: #FFC700;
+    background-color: #ffc700;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -158,7 +156,7 @@ input[type=checkbox] {
 }
 
 #opening {
-    background-color: #FFC700;
+    background-color: #ffc700;
     padding: 30px;
 }
 
@@ -168,19 +166,16 @@ input[type=checkbox] {
 
 .r-open {
     justify-content: center;
-
 }
 
 .foto-section2 {
     width: 900px;
     margin: auto;
-
-
 }
 
 .j-utama {
     font-size: 16px;
-    color: #FFC700;
+    color: #ffc700;
     font-weight: 600;
 }
 
@@ -210,7 +205,7 @@ input[type=checkbox] {
 .btn-turu {
     outline: none;
     border: none;
-    background-color: #FFC700;
+    background-color: #ffc700;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -231,7 +226,7 @@ input[type=checkbox] {
 }
 
 .j-name {
-    color: #FFC700;
+    color: #ffc700;
     font-size: 18px;
     font-weight: 600;
 }
@@ -280,9 +275,8 @@ input[type=checkbox] {
     margin-top: 10px;
 }
 
-
 .t-dev {
-    color: #FFC700;
+    color: #ffc700;
 }
 
 .d-dev {
@@ -302,7 +296,7 @@ input[type=checkbox] {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #FFC700;
+    background-color: #ffc700;
     color: white;
     cursor: pointer;
     padding: 20px;
@@ -310,7 +304,7 @@ input[type=checkbox] {
     opacity: 0;
     transform: translateY(30px);
     filter: blur(5px);
-    transition: .5s all cubic-bezier(0.175, 0.885, 0.320, 1.725);
+    transition: 0.5s all cubic-bezier(0.175, 0.885, 0.32, 1.725);
 }
 
 .myBtn-active {
@@ -336,7 +330,7 @@ input[type=checkbox] {
     font-weight: 500 !important;
 }
 #socialmedia {
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 .dissmised {
     opacity: 0;
@@ -344,9 +338,9 @@ input[type=checkbox] {
 }
 canvas {
     display: block;
-  }
-  /* ---- tsparticles container ---- */
-  #tsparticles {
+}
+/* ---- tsparticles container ---- */
+#tsparticles {
     top: 0;
     left: 0;
     z-index: -1;
@@ -358,4 +352,38 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: 50% 50%; */
-  }
+}
+.barba-transition {
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffc700;
+    z-index: 10000;
+}
+.floating-btn {
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem !important;
+    border-radius: 50%;
+    font-size: 1rem;
+    background-color: var(--mdb-warning);
+    color: var(--mdb-light);
+    text-decoration: none;
+    transition: all .5s ease;
+    outline: 0px solid #e4a11b50;
+
+}
+
+a[href="gallery.html"]>.floating-btn:hover {
+    outline: 8px solid #e4a11b50;
+    transform: rotate(-270deg);
+}
+a[href="index.html"]>.floating-btn:hover {
+    outline: 8px solid #e4a11b50;
+    transform: rotate(270deg);
+}
