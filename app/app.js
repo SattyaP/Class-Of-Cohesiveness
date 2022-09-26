@@ -4,6 +4,7 @@ import { smoothScroll as smScroll } from "./utils/smoothScroll.js";
 import { refreshScroll as rfScroll } from "./utils/refreshScroll.js";
 import { customElementEs5Adapter as particleAdapter } from "./utils/particles/custom-elements-es5-adapter.js";
 import { webComponentsLoader } from "./utils/particles/webcomponents-loader.js";
+import { transisi } from "./utils/transisiEffect.js";
 
 //back to top
 jqScroll();
@@ -14,6 +15,9 @@ rfScroll();
 //particle js
 particleAdapter();
 webComponentsLoader();
+
+//transitions
+window.addEventListener('scroll', transisi);
 
 const heroText = new HeroText();
 
@@ -30,6 +34,7 @@ const animationToggleOff = () => {
     window.clearInterval(animText);
 };
 document.querySelectorAll(".close").forEach((e) => {
+    console.log("click")
     e.addEventListener("click", function () {
         this.parentElement.classList.add("dissmised");
     });
@@ -55,7 +60,8 @@ barba.init({
                 gsap.to(data.current.container,{
                     opacity:0
                 })
-                if(data.current.url == "/gallery.html") {
+                console.log(data.current.url);
+                if(data.current.url.path == "/nama.html") {
                     gsap.to(".barba-transition", {
                         duration:0,
                         x: "100%",
@@ -76,7 +82,7 @@ barba.init({
                 return gsap.to(".barba-transition", {
                     duration:1,
                     ease: "expo.in",
-                    x: (data.current.url == "/gallery.html"?"-100%":"100%"),
+                    x: (data.current.url.path == "/nama.html"?"-100%":"100%"),
                     onComplete: () => {
                         gsap.to(".barba-transition", {
                             x:"-100%",

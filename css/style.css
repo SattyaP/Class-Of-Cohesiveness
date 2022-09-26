@@ -89,7 +89,8 @@ input[type="checkbox"] {
 }
 
 .hero {
-    margin-top: 120px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .baik {
@@ -102,18 +103,22 @@ input[type="checkbox"] {
     color: #000;
     font-weight: 400;
     line-height: 3rem;
+    overflow: hidden;
 }
 
 .i-hero {
     color: #ffc700;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .d-hero {
     font-size: 16px;
     opacity: 80%;
     font-weight: 400;
+    overflow: hidden;
 }
+
 
 .foto-hero {
     max-width: 85%;
@@ -277,11 +282,25 @@ input[type="checkbox"] {
 
 .t-dev {
     color: #ffc700;
+    font-size: 20px;
 }
 
 .d-dev {
     color: #000;
     font-weight: 600;
+    font-size: 32px;
+}
+.name-dev{
+    color: #000;
+    font-size: 18px;
+    padding: 5px;
+    width: 38%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffc700;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: 400 !important;
 }
 
 .garis-ketik::after {
@@ -327,7 +346,7 @@ input[type="checkbox"] {
     color: #000;
 }
 #garis {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 #socialmedia {
     transition: all 0.5s ease;
@@ -371,15 +390,14 @@ canvas {
     font-size: 2rem !important;
     border-radius: 50%;
     font-size: 1rem;
-    background-color: var(--mdb-warning);
+    background-color: #ffc700;
     color: var(--mdb-light);
     text-decoration: none;
     transition: all .5s ease;
     outline: 0px solid #e4a11b50;
-
 }
 
-a[href="gallery.html"]>.floating-btn:hover {
+a[href="nama.html"]>.floating-btn:hover {
     outline: 8px solid #e4a11b50;
     transform: rotate(-270deg);
 }
