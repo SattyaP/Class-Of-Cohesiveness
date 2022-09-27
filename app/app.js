@@ -34,7 +34,6 @@ const animationToggleOff = () => {
     window.clearInterval(animText);
 };
 document.querySelectorAll(".close").forEach((e) => {
-    console.log("click")
     e.addEventListener("click", function () {
         this.parentElement.classList.add("dissmised");
     });
@@ -49,48 +48,48 @@ let animateNavbar = () => {
         $("#socialmedia").toggleClass("dissmised");
     }, 600);
 };
-$(document).ready(animateNavbar);
 
+$(document).ready(animateNavbar);
 
 barba.init({
     transitions: [
         {
             name: "slide-transition",
             leave(data) {
-                gsap.to(data.current.container,{
-                    opacity:0
+                gsap.to(data.current.container, {
+                    opacity: 0
                 })
-                console.log(data.current.url);
-                if(data.current.url.path == "/nama.html") {
+                // console.log(data.current.url);
+                if (data.current.url.path == "/nama.html") {
                     gsap.to(".barba-transition", {
-                        duration:0,
+                        duration: 0,
                         x: "100%",
                     });
                 }
-                
+
                 return gsap.to(".barba-transition", {
                     ease: "expo.out",
-                    duration:1,
+                    duration: 1,
                     x: "0",
                 });
             },
             enter(data) {
-                gsap.to(data.next.container,{
-                    opacity:0
+                gsap.to(data.next.container, {
+                    opacity: 0
                 })
-                
+
                 return gsap.to(".barba-transition", {
-                    duration:1,
+                    duration: 1,
                     ease: "expo.in",
-                    x: (data.current.url.path == "/nama.html"?"-100%":"100%"),
+                    x: (data.current.url.path == "/nama.html" ? "-100%" : "100%"),
                     onComplete: () => {
                         gsap.to(".barba-transition", {
-                            x:"-100%",
-                            duration:0
+                            x: "-100%",
+                            duration: 0
                         })
-                        gsap.to(data.next.container,{
-                            opacity:1,
-                            duration:0.5
+                        gsap.to(data.next.container, {
+                            opacity: 1,
+                            duration: 0.5
                         })
                         animateNavbar();
                     },
@@ -99,3 +98,5 @@ barba.init({
         },
     ],
 });
+
+

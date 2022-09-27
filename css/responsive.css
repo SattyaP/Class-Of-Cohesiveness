@@ -126,6 +126,10 @@
     .close {
         padding: 30px 42px;
     }
+
+    .name-dev {
+        margin: auto;
+    }
 }
 
 /* 
@@ -339,11 +343,18 @@
     }
 
     .name-dev {
-        font-size: 14px;
         color: #000;
-        text-decoration: underline 1px #e4b610;
+        font-size: 18px;
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #ffc700;
+        cursor: pointer;
+        color: #ffff;
+        font-weight: 400 !important;
     }
-
 
 }
 
@@ -551,9 +562,17 @@
     }
 
     .name-dev {
-        font-size: 14px;
         color: #000;
-        text-decoration: underline 1px #e4b610;
+        font-size: 16px;
+        padding: 5px;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #ffc700;
+        cursor: pointer;
+        color: #ffff;
+        font-weight: 400 !important;
     }
 
 }
@@ -759,8 +778,26 @@
     }
 
     .name-dev {
-        font-size: 14px;
         color: #000;
-        text-decoration: underline 1px #e4b610;
+        font-size: 16px;
+        padding: 5px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #ffc700;
+        cursor: pointer;
+        color: #ffff;
+        font-weight: 400 !important;
+    }
+
+
+    .c-moon {
+        color: #ffff;
+        background-color: #ffc700;
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
     }
 }

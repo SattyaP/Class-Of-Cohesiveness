@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: rgb(255, 250, 250);
+}
+
 .navbar {
     transition: all 0.5s ease;
     display: flex;
@@ -404,4 +408,14 @@ a[href="nama.html"]>.floating-btn:hover {
 a[href="index.html"]>.floating-btn:hover {
     outline: 8px solid #e4a11b50;
     transform: rotate(270deg);
+}
+
+.c-moon{
+    color: #ffff;
+    background-color: #ffc700;
+    padding: 40px;
+    margin: 200px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
