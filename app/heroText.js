@@ -11,7 +11,7 @@ export class HeroText {
               "Ahlan Wasahlan",
               "Ben Arrivato",
               "Wilujeng Sumping",
-              "Suka Blyat'"
+              "Dobro pozhalovat'"
             ]
             animateHeroText(text[Math.floor(Math.random()*text.length)])
           }, 5000);

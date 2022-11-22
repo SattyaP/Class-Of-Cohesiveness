@@ -7,6 +7,12 @@ import { webComponentsLoader } from "./utils/particles/webcomponents-loader.js";
 import { transisi } from "./utils/transisiEffect.js";
 import { animateNavbar } from "./utils/animateNavbar.js";
 import { dismissedButton } from "./utils/dismissedButton.js";
+import { schoolInit } from "./utils/schoolInit.js";
+
+
+//particle js
+particleAdapter();
+webComponentsLoader();
 
 //services
 import { HeroText } from "./heroText.js";
@@ -18,9 +24,6 @@ jqScroll();
 //go to top when socialmedia dissmised
 rfScroll();
 
-//particle js
-particleAdapter();
-webComponentsLoader();
 
 //transitions
 window.addEventListener("scroll", transisi);
@@ -48,3 +51,10 @@ $(document).ready(animateNavbar);
 
 // barba transitions
 barbaInitialize()
+
+// school
+$(document).ready(e => {
+    schoolInit()
+})
+
+// galery-slide

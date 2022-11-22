@@ -6,3 +6,4 @@ export function animateNavbar() {
         $("#socialmedia").toggleClass("dissmised");
     }, 600);
 };
+
