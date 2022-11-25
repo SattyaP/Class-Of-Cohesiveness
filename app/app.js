@@ -7,16 +7,19 @@ import { webComponentsLoader } from "./utils/particles/webcomponents-loader.js";
 import { transisi } from "./utils/transisiEffect.js";
 import { animateNavbar } from "./utils/animateNavbar.js";
 import { dismissedButton } from "./utils/dismissedButton.js";
-import { parallaxInit } from "./utils/parallaxInit.js";
-import { sliderImage } from "./utils/sliderImg.js";
+import { slickInitialize } from "./utils/slickInitialize.js";
 import { sleep } from "./utils/sleep.js";
 
 $(document).ready(async function () {
-    $(".loading-load").animate({
-        opacity:0
-    },200)
+    animateNavbar()
+    $(".loading-load").animate(
+        {
+            opacity: 0,
+        },
+        200
+    );
     await sleep(200);
-    $(".loading-load").hide()
+    $(".loading-load").hide();
 });
 
 //particle js
@@ -32,7 +35,6 @@ jqScroll();
 
 //go to top when socialmedia dissmised
 rfScroll();
-
 
 //transitions
 window.addEventListener("scroll", transisi);
@@ -53,18 +55,11 @@ const animationToggleOff = () => {
 };
 
 // dismiss button
-dismissedButton()
+dismissedButton();
 
-//navbar and socialmedia animation
-$(document).ready(animateNavbar);
 
 // barba transitions
-barbaInitialize()
+barbaInitialize();
 
-// school
-$(document).ready(e => {
-    parallaxInit()
-})
-
-// galery-slide
-sliderImage()
+// gallery-slide
+slickInitialize();
