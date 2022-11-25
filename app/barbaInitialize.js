@@ -1,6 +1,6 @@
 import { animateNavbar } from "./utils/animateNavbar.js";
 import { dismissedButton } from "./utils/dismissedButton.js";
-import { schoolInit } from "./utils/schoolInit.js";
+import { parallaxInit } from "./utils/parallaxInit.js";
 export function barbaInitialize() {
     let duration = 0.8;
     barba.init({
@@ -42,7 +42,7 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            schoolInit()
+                            parallaxInit()
                         },
                     });
                 },
@@ -85,7 +85,7 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            schoolInit()
+                            parallaxInit()
                         },
                     });
                 },
@@ -128,7 +128,7 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            schoolInit()
+                            parallaxInit()
                         },
                     });
                 },
@@ -171,7 +171,7 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            schoolInit()
+                            parallaxInit()
                         },
                     });
                 },

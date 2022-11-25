@@ -15,7 +15,7 @@
   */
 
 @media (max-width: 768px) {
-    
+
     /* navbar */
     .menu {
         display: none;
@@ -28,7 +28,7 @@
         padding: 8px 0px 25px 35px;
     }
 
-    .menu li{
+    .menu li {
         margin: 10px 0px 0px 0px;
     }
 
@@ -411,7 +411,7 @@
     }
 
     .menu li {
-       margin: 6px 0px 0px 0px;
+        margin: 6px 0px 0px 0px;
     }
 
     input[type=checkbox]:checked~.menu {
@@ -632,7 +632,7 @@
         height: 100%;
     }
 
-    .menu li{
+    .menu li {
         margin-bottom: 0px;
         margin-top: 8px;
     }
@@ -812,4 +812,53 @@
         height: 100%;
         text-align: center;
     }
+
+
+
+    /* Gallery */
+
+    .herog-text,
+    .herog-text h1 {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .herog-text p {
+        font-size: 14px;
+    }
+
+    .btn-hgalery {
+        font-size: 12px;
+    }
+
+    .card-memory {
+        padding: 20px;
+    }
+
+    .line-memory h4 {
+        font-size: 16px;
+    }
+
+    .card-memory p {
+        font-size: 14px;
+    }
+
+    .j-event1 h4{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .j-event1 hr{
+        display: none;
+    }
+
+    .homeslider{
+        border: none;
+    }
+
+    .img-slider{
+        padding: 0 15px;
+    }
+    
+
 }

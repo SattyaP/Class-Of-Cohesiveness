@@ -31,6 +31,13 @@
 </head>
 
 <body data-barba="wrapper">
+    <div class="loading-load">
+        <h1>Loading</h1>
+        <video id="slide-video" preload="auto" loop muted autoplay>
+            <source src="img/loading.webm" type='video/webm' />
+            <source src="img/loading.gif" type='video/gif' />
+        </video>
+    </div>
     <div class="barba-transition"></div>
     <main data-barba="container" data-barba-namespace="home">
 
@@ -271,15 +278,16 @@
 }'></web-particles>
     </main>
 
-    <script defer src="./app/utils/particles/tsparticles.min.js" type="text/javascript"></script>
-    <script defer src="./app/js/mdb.min.js" type="text/javascript"></script>
-    <script defer src="./app/js/jquery.min.js" type="text/javascript"></script>
-    <script defer src="./app/js/jquery.parallax.js"></script>
-    <script defer src="./app/js/barba.min.js" type="text/javascript"></script>
-    <script defer src="./app/js/gsap.min.js" type="text/javascript"></script>
-    <script defer src="./app/js/solid.min.js"></script>
-    <script defer src="./app/app.js" type="module"></script>
-    <script defer src="./app/utils/particles/web-particles.min.js" type="module"></script>
+    <script src="./app/utils/particles/tsparticles.min.js" type="text/javascript"></script>
+    <script src="./app/js/mdb.min.js" type="text/javascript"></script>
+    <script src="./app/js/jquery.min.js" type="text/javascript"></script>
+    <script src="./app/js/jquery.parallax.js"></script>
+    <script src="./app/js/barba.min.js" type="text/javascript"></script>
+    <script src="./app/js/gsap.min.js" type="text/javascript"></script>
+    <script src="./app/js/solid.min.js"></script>
+    <script src="./app/js/slick.min.js"></script>
+    <script src="./app/app.js" type="module"></script>
+    <script src="./app/utils/particles/web-particles.min.js" type="module"></script>
 </body>
 
 </html>

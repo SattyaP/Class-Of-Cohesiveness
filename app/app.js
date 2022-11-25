@@ -7,8 +7,17 @@ import { webComponentsLoader } from "./utils/particles/webcomponents-loader.js";
 import { transisi } from "./utils/transisiEffect.js";
 import { animateNavbar } from "./utils/animateNavbar.js";
 import { dismissedButton } from "./utils/dismissedButton.js";
-import { schoolInit } from "./utils/schoolInit.js";
+import { parallaxInit } from "./utils/parallaxInit.js";
+import { sliderImage } from "./utils/sliderImg.js";
+import { sleep } from "./utils/sleep.js";
 
+$(document).ready(async function () {
+    $(".loading-load").animate({
+        opacity:0
+    },200)
+    await sleep(200);
+    $(".loading-load").hide()
+});
 
 //particle js
 particleAdapter();
@@ -54,7 +63,8 @@ barbaInitialize()
 
 // school
 $(document).ready(e => {
-    schoolInit()
+    parallaxInit()
 })
 
 // galery-slide
+sliderImage()
