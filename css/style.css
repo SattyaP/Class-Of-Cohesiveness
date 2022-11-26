@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
 
 * {
     margin: 0;
@@ -143,15 +143,17 @@ input[type="checkbox"] {
     border: none;
     background-color: #ffc700;
     border-radius: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 28px 8.5px 28px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
+    outline: transparent solid 0px;
+    color: #d8f3dc;
+    transition: all 0.4s ease-out;
 }
 
 .button-hero:hover {
-    background-color: #f8ce36;
-    color: rgb(0, 0, 0);
+    outline: rgba(228, 161, 27, 0.314) solid 6px;
 }
 
 .link-b {
@@ -218,21 +220,6 @@ input[type="checkbox"] {
     width: 400px;
 }
 
-.btn-turu {
-    outline: none;
-    border: none;
-    background-color: #ffc700;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px 30px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
-}
-
-.btn-turu:hover {
-    background-color: #f8ce36;
-    color: rgb(0, 0, 0);
-}
 
 .j-turu {
     font-weight: 400;
@@ -248,6 +235,8 @@ input[type="checkbox"] {
 }
 
 .d-name {
+    display: flex;
+    flex-direction: column;
     font-weight: 600;
     color: #000;
     font-size: 28px;
@@ -330,7 +319,7 @@ input[type="checkbox"] {
     background-color: #ffc700;
     color: white;
     cursor: pointer;
-    padding: 20px;
+    padding: 14px 18px;
     border-radius: 100px;
     opacity: 0;
     transform: translateY(30px);
@@ -456,12 +445,15 @@ a[href="index.html"]>.floating-btn:hover {
 /* gallery */
 
 .gallery-hero {
+    justify-content: center;
+    display: flex;
     z-index: 1;
     position: relative;
     height: 610px;
     overflow: hidden;
-    background : url("/img/gallery/c-1.JPG") no-repeat center;
+    /* background : url("/img/gallery/c-1.JPG") no-repeat center; */
     background-size: cover;
+    /* animation: change 30s infinite; */
 }
 
 .gallery-hero::after {
@@ -526,12 +518,8 @@ a[href="index.html"]>.floating-btn:hover {
 }
 
 .herog-text {
+    margin: auto;
     z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow: hidden;
     text-align: center;
 }
 

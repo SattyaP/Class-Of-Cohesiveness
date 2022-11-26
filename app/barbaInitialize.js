@@ -5,6 +5,8 @@ import { slickInitialize } from "./utils/slickInitialize.js";
 export function barbaInitialize() {
     let duration = 0.8;
     barba.init({
+        prefetchIgnore: true,
+        timeout:4000,
         transitions: [
             {
                 name: "right-transition",
