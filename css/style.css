@@ -144,11 +144,11 @@ input[type="checkbox"] {
     background-color: #ffc700;
     border-radius: 50px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 9px 28px 8.5px 28px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
     outline: transparent solid 0px;
-    color: #d8f3dc;
+    color: #fff;
     transition: all 0.4s ease-out;
 }
 
@@ -451,9 +451,9 @@ a[href="index.html"]>.floating-btn:hover {
     position: relative;
     height: 610px;
     overflow: hidden;
-    /* background : url("/img/gallery/c-1.JPG") no-repeat center; */
+    background : url("/img/gallery/c-1.JPG") no-repeat center;
     background-size: cover;
-    /* animation: change 30s infinite; */
+    animation: change 30s infinite;
 }
 
 .gallery-hero::after {
@@ -671,8 +671,9 @@ a[href="index.html"]>.floating-btn:hover {
 
 .homeslider {
     margin-top: 20px;
-    border: 30px #ffc700 solid;
-    /* border-radius: 30px; */
+    /* border: 30px #ffc700 solid; */
+    background-color: #ffc700;
+    padding: 0 10px 0 10px;
 }
 
 .img-slider {
@@ -703,3 +704,16 @@ a[href="index.html"]>.floating-btn:hover {
     margin-top: -40px;
     width: 100px;
 }
+
+.copyright {
+    margin-top: 30px;
+    padding: 5px 0;
+    background-color: #ffc700;
+}
+.copyright p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+}
+

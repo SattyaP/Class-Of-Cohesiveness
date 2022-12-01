@@ -135,6 +135,12 @@
     .name-dev {
         margin: auto;
     }
+
+    /* copyright */
+    .copyright p {
+        margin: 0;
+        font-size: 12px;
+    }
 }
 
 /* 
@@ -188,8 +194,9 @@
         width: 130px;
     }
 
-    .menu li+li {
+    .menu li {
         margin-top: 8px;
+        margin-bottom: 0;
     }
 
     input[type=checkbox]:checked~.menu {
@@ -361,6 +368,11 @@
         font-weight: 400 !important;
     }
 
+    /* copyright */
+    .copyright p {
+        margin: 0;
+        font-size: 12px;
+    }
 }
 
 /* 
@@ -393,7 +405,7 @@
         display: none;
         position: absolute;
         background-color: rgba(255, 255, 255);
-        top: 55px;
+        top: 50px;
         right: 0;
         left: 0;
         text-align: left;
@@ -411,7 +423,8 @@
     }
 
     .menu li {
-        margin: 6px 0px 0px 0px;
+       margin-bottom: 0;
+       margin-top: 8px;
     }
 
     input[type=checkbox]:checked~.menu {
@@ -582,6 +595,58 @@
         cursor: pointer;
         color: #ffff;
         font-weight: 400 !important;
+    }
+
+    /* Gallery */
+
+    .herog-text,
+    .herog-text h1 {
+        text-align: left;
+        font-size: 32px;
+    }
+
+    .herog-text p {
+        font-size: 14px;
+    }
+
+    .btn-hgallery {
+        font-size: 12px;
+    }
+
+    .card-memory {
+        padding: 30px;
+    }
+
+    .line-memory h4 {
+        font-size: 20px;
+    }
+
+    .card-memory p {
+        font-size: 14px;
+    }
+
+    .j-event1 h4 {
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .j-event1 hr {
+        display: none;
+    }
+
+    .homeslider {
+        border: none;
+    }
+
+    .img-slider {
+        padding: 0 15px;
+    }
+
+    /* copyright */
+    .copyright p {
+        margin: 0;
+        font-size: 12px;
     }
 
 }
@@ -843,22 +908,27 @@
         font-size: 14px;
     }
 
-    .j-event1 h4{
+    .j-event1 h4 {
         font-size: 14px;
         text-align: center;
     }
 
-    .j-event1 hr{
+    .j-event1 hr {
         display: none;
     }
 
-    .homeslider{
+    .homeslider {
         border: none;
     }
 
-    .img-slider{
+    .img-slider {
         padding: 0 15px;
     }
-    
+
+    /* copyright */
+    .copyright p {
+        margin: 0;
+        font-size: 10px;
+    }
 
 }
