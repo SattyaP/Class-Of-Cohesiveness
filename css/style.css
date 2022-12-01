@@ -446,7 +446,7 @@ a[href="index.html"] > .floating-btn:hover {
     position: relative;
     height: 610px;
     overflow: hidden;
-    background: url("/img/gallery/c-1.webp") no-repeat center;
+    background: url("../img/gallery/c-1.webp") no-repeat center;
     background-size: cover;
     animation: change 30s infinite;
 }
@@ -467,53 +467,53 @@ a[href="index.html"] > .floating-btn:hover {
     height: 0;
     overflow: hidden;
     z-index: -1;
-    content: url("/img/gallery/c-1.webp") url("/img/gallery/c-2.webp") url("/img/gallery/c-3.webp") url("/img/gallery/c-4.webp") url("/img/gallery/c-5.webp") url("/img/gallery/c-6.webp") url("/img/gallery/c-7.webp") url("/img/gallery/c-8.webp");
+    content: url("../img/gallery/c-1.webp") url("../img/gallery/c-2.webp") url("../img/gallery/c-3.webp") url("../img/gallery/c-4.webp") url("../img/gallery/c-5.webp") url("../img/gallery/c-6.webp") url("../img/gallery/c-7.webp") url("../img/gallery/c-8.webp");
 }
 @keyframes change {
     12.5% {
-        background-image: url("/img/gallery/c-2.webp");
+        background-image: url("../img/gallery/c-2.webp");
     }
 
     22.5% {
     }
 
     25% {
-        background-image: url("/img/gallery/c-3.webp");
+        background-image: url("../img/gallery/c-3.webp");
     }
 
     35% {
     }
 
     37.5% {
-        background-image: url("/img/gallery/c-4.webp");
+        background-image: url("../img/gallery/c-4.webp");
     }
 
     47.5% {
     }
 
     50% {
-        background-image: url("/img/gallery/c-5.webp");
+        background-image: url("../img/gallery/c-5.webp");
     }
 
     60% {
     }
 
     62.5% {
-        background-image: url("/img/gallery/c-6.webp");
+        background-image: url("../img/gallery/c-6.webp");
     }
 
     72.5% {
     }
 
     75% {
-        background-image: url("/img/gallery/c-7.webp");
+        background-image: url("../img/gallery/c-7.webp");
     }
 
     85% {
     }
 
     87.5% {
-        background-image: url("/img/gallery/c-8.webp");
+        background-image: url("../img/gallery/c-8.webp");
     }
 
     97.5% {
@@ -521,7 +521,7 @@ a[href="index.html"] > .floating-btn:hover {
 
     /* ulang awal */
     100% {
-        background-image: url("/img/gallery/c-1.webp");
+        background-image: url("../img/gallery/c-1.webp");
     }
 }
 
@@ -603,7 +603,7 @@ a[href="index.html"] > .floating-btn:hover {
 }
 
 .bg-memory {
-    /* background-image: url( '/img/gallery/pattern.svg' ); */
+    /* background-image: url( '../img/gallery/pattern.svg' ); */
     background-color: #fff;
     margin-top: -30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
