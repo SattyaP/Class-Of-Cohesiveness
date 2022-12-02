@@ -682,7 +682,8 @@ a[href="index.html"] > .floating-btn:hover {
     padding: 0 10px 0 10px;
 }
 .slider-before {
-    background-color: var(--mdb-gray-400);
+    cursor: pointer;
+    background-image: linear-gradient(to right bottom, var(--mdb-gray-200) 40%, var(--mdb-gray-300));
     justify-content: center;
     align-items: center;
     display: flex;
@@ -691,6 +692,15 @@ a[href="index.html"] > .floating-btn:hover {
     min-height: 100px;
     height: calc(20vh + 10vw);
     max-height: 400px;
+    color: #212529 !important;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.slider-before > div > .spinner-border {
+    vertical-align: -0.225em !important;
+    border-width: 0.15em !important;
+    width: 2rem !important;
+    height: 2rem !important;
 }
 .img-slider {
     width: 100%;
@@ -731,4 +741,33 @@ a[href="index.html"] > .floating-btn:hover {
     font-size: 14px;
     color: #222;
     text-align: center;
+}
+.slick-next,
+.slick-prev {
+    height: 100% !important;
+    background-color: #21252911 !important;
+    width: 10vw !important;
+    min-width: 50px;
+    max-width: 75px;
+}
+.slick-next {
+    right: 0 !important;
+}
+.slick-prev {
+    z-index: 1;
+    left: 0 !important;
+}
+.slick-next::before,
+.slick-prev::before {
+    /* -webkit-text-stroke: .5px #212529; */
+    color: var(--mdb-gray-400) !important;
+    opacity: 1 !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+.slick-next::before {
+    content: "\f35a" !important;
+}
+.slick-prev::before {
+    content: "\f359" !important;
 }
