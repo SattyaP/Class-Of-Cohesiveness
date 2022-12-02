@@ -681,7 +681,17 @@ a[href="index.html"] > .floating-btn:hover {
     background-color: #ffc700;
     padding: 0 10px 0 10px;
 }
-
+.slider-before {
+    background-color: var(--mdb-gray-400);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 20px;
+    min-height: 100px;
+    height: calc(20vh + 10vw);
+    max-height: 400px;
+}
 .img-slider {
     width: 100%;
 }
