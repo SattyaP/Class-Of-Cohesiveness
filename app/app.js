@@ -34,9 +34,6 @@ import { barbaInitialize } from "./barbaInitialize.js";
 //back to top
 jqScroll();
 
-//go to top when socialmedia dissmised
-rfScroll();
-
 //transitions
 window.addEventListener("scroll", transisi);
 

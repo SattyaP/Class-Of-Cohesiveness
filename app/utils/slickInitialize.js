@@ -6,7 +6,6 @@ export function slickInitialize() {
             slider = document.createElement("div");
         slider.classList.add(..."row homeslider".split(" "));
         $(el.children().children()[0]).removeClass("d-none");
-        console.log(images);
         for (i; i < images.length; i++) {
             await $.ajax({
                 type: "get",
