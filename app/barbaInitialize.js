@@ -6,7 +6,7 @@ export function barbaInitialize() {
     let duration = 0.8;
     barba.init({
         prefetchIgnore: true,
-        timeout:4000,
+        timeout: 4000,
         transitions: [
             {
                 name: "right-transition",
@@ -40,7 +40,8 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            slickInitialize();;
+                            slickInitialize();
+                            window.scrollTo(0, 0);
                         },
                     });
                 },
@@ -77,7 +78,8 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            slickInitialize();;
+                            slickInitialize();
+                            window.scrollTo(0, 0);
                         },
                     });
                 },
@@ -114,7 +116,8 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            slickInitialize();;
+                            slickInitialize();
+                            window.scrollTo(0, 0);
                         },
                     });
                 },
@@ -151,7 +154,8 @@ export function barbaInitialize() {
                             });
                             animateNavbar();
                             dismissedButton();
-                            slickInitialize();;
+                            slickInitialize();
+                            window.scrollTo(0, 0);
                         },
                     });
                 },

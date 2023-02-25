@@ -11,6 +11,7 @@ import { slickInitialize } from "./utils/slickInitialize.js";
 import { sleep } from "./utils/sleep.js";
 
 $(document).ready(async function () {
+    console.log(document.readyState);
     animateNavbar()
     $(".loading-load").animate(
         {
@@ -32,9 +33,6 @@ import { barbaInitialize } from "./barbaInitialize.js";
 
 //back to top
 jqScroll();
-
-//go to top when socialmedia dissmised
-rfScroll();
 
 //transitions
 window.addEventListener("scroll", transisi);

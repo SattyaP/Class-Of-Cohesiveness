@@ -1,17 +1,11 @@
-export function transisi(){
-    var transisis = document.querySelectorAll('.transisi');
+export function transisi() {
 
-    for(var i = 0; i < transisis.length; i++){
-        
-        var windowheight = window.innerHeight;
-        var transisitop = transisis[i].getBoundingClientRect().top;  
-        var transisipoint = 150;
-        
-        if(transisitop < windowheight - transisipoint){
-            transisis[i].classList.add('active');
+    let transisipoint = 150;
+    document.querySelectorAll(".transisi").forEach((e) => {
+        if (e.getBoundingClientRect().top < window.innerHeight - transisipoint) {
+            e.classList.add("active");
+        } else {
+            e.classList.remove("active");
         }
-        else{
-            transisis[i].classList.remove('active');
-        }
-    }
+    });
 }
