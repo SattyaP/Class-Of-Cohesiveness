@@ -449,15 +449,15 @@ a[href="index.html"]>.floating-btn:hover {
     display: flex;
     z-index: 1;
     position: relative;
-    height: 610px;
+    height: 600px;
     overflow: hidden;
-    background : url("/img/gallery/c-1.JPG") no-repeat center;
+    background: url("/img/gallery/c-1.JPG") no-repeat center;
     background-size: cover;
     animation: change 30s infinite;
 }
 
 .gallery-hero::after {
-   
+
     content: "";
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
     position: absolute;
@@ -470,7 +470,7 @@ a[href="index.html"]>.floating-btn:hover {
 
 @keyframes change {
     12.5% {
-        background-image: url("/img/gallery/c-2.JPG");  
+        background-image: url("/img/gallery/c-2.JPG");
     }
 
     20% {}
@@ -710,6 +710,7 @@ a[href="index.html"]>.floating-btn:hover {
     padding: 5px 0;
     background-color: #ffc700;
 }
+
 .copyright p {
     font-weight: 500;
     font-size: 14px;
@@ -717,3 +718,128 @@ a[href="index.html"]>.floating-btn:hover {
     text-align: center;
 }
 
+.articles img {
+    height: 100%;
+    object-fit: contain;
+}
+
+#time {
+    font-weight: 400 !important;
+    color: #f8ce36;
+}
+
+.card-article h1 {
+    font-size: 28px;
+    margin-top: 15px;
+    color: #222;
+    font-weight: 600;
+}
+
+
+
+.articles h5 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.articles p {
+    color: #757575;;
+}
+
+#tag {
+    background-color: #ffc700;
+    padding: 4px 0;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.articles a {
+    text-decoration: none;
+}
+
+.btn-subs {
+    border: 1px solid #cecece;
+    border-radius: 20px;
+    width: 120px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-read {
+    background-color: #222;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+
+.breadcrumb-item a {
+    font-size: 14px;
+    color: #333533;
+}
+
+.breadcrumb-item a:hover{
+    color: #f8ce36;
+}
+
+.title {
+    font-size: 32px;
+    color: #222;
+    font-weight: 600;
+}
+
+.timestamp {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.img-show {
+    margin-top: 20px;
+}
+
+.isi-article {
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.ads {
+    background-color: #ececec;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.title-populer {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-populer {
+    width: 300px;
+    margin-top: 15px;
+    padding: 20px 40px;
+    background-color: #ffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-populer h5 {
+    font-size: 16px;
+    color: #222;
+    font-weight: 600;
+}
+
+.tag-jir {
+    margin-top: 20px;
+    font-size: 16px;
+}
