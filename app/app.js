@@ -11,7 +11,6 @@ import { slickInitialize } from "./utils/slickInitialize.js";
 import { sleep } from "./utils/sleep.js";
 
 $(document).ready(async function () {
-    console.log(document.readyState);
     animateNavbar()
     $(".loading-load").animate(
         {

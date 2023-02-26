@@ -29,6 +29,9 @@
 <body data-barba="wrapper">
     <div class="barba-transition"></div>
     <main data-barba="container" data-barba-namespace="show">
+        <section id="hero-top"></section>
+        <a href="javascript:void(0);" onclick="smoothScroll('#socialmedia')"><button id="myBtn"
+                title="Top">&uarr;</button></a>
         <!-- Social-media -->
         <section id="socialmedia" class="dissmised">
             <span class="close">x</span>
@@ -49,7 +52,7 @@
                     <input type="checkbox" id="checkbox_toggle" />
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <div class="menu">
-                        <li class="t-nav"><a href="javascript:void(0);" class="t-nav"
+                        <li class="t-nav"><a href="/" data-barba-transition="left" class="t-nav"
                                 onclick='smoothScroll("#hero-top")'>Home</a></li>
                         <div class="b-bottom"></div>
                         <li class="t-nav"><a href="javascript:void(0);" class="t-nav"
