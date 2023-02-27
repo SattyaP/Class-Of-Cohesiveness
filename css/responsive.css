@@ -36,7 +36,7 @@
         display: block;
     }
 
-    .hamburger {
+    .menu-hamburger {
         display: block;
         margin: 15px 20px 0px 0px;
     }
@@ -227,7 +227,7 @@
         display: block;
     }
 
-    .hamburger {
+    .menu-hamburger {
         display: block;
         font-size: 20px;
     }
@@ -460,7 +460,7 @@
         display: block;
     }
 
-    .hamburger {
+    .menu-hamburger {
         display: block;
         font-size: 20px;
         margin: 0px 20px -15px 0px;
@@ -774,7 +774,7 @@
         display: block;
     }
 
-    .hamburger {
+    .menu-hamburger {
         display: block;
         font-size: 20px;
         margin: 12px 12px 0px 0px;

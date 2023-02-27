@@ -17,6 +17,69 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.sidebar {
+    height: 100vh;
+    top: 0;
+    max-width: 350px;
+    z-index: 1500;
+    transition: all 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transform: translateX(100%);
+}
+.sidebar-hide {
+    transform: translateX(0px);
+}
+.sidebar-title {
+    height: 85px;
+}
+.sidebar-title > div {
+    height: fit-content;
+}
+.sidebar-body {
+}
+.menu-hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    color: #000;
+}
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 300ms cubic-bezier(0.4, 0, 0.2, 1) 0.25s, stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
+}
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+}
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
 .navbar {
     transition: all 0.5s ease;
     display: flex;
@@ -45,7 +108,12 @@ input[type="checkbox"] {
     display: none;
 }
 
-.hamburger {
+.menu-hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
     display: none;
     font-size: 24px;
     user-select: none;

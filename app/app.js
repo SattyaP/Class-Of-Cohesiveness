@@ -11,7 +11,13 @@ import { slickInitialize } from "./utils/slickInitialize.js";
 import { sleep } from "./utils/sleep.js";
 
 $(document).ready(async function () {
-    animateNavbar()
+    
+    $(".menu-hamburger").on("click", () => {
+        $(".menu-hamburger").toggleClass("opened");
+        $(".sidebar").toggleClass("sidebar-hide");
+        $(".menu-hamburger").attr("aria-expanded", $(".menu-hamburger").hasClass("opened"));
+    });
+    animateNavbar();
     $(".loading-load").animate(
         {
             opacity: 0,
@@ -53,7 +59,6 @@ const animationToggleOff = () => {
 
 // dismiss button
 dismissedButton();
-
 
 // barba transitions
 barbaInitialize();
