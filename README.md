@@ -3,7 +3,7 @@ This repository contains a simple class website that was created with the result
 ## Creator
 Shout out to the creators that create this website :alien:
 - [SattyaP (Sattya)](https://github.com/SattyaP)
-- [SiMamank115 (Faeest)](https://github.com/SiMamank115)
+- [Faeest (Faeest)](https://github.com/Faeest)
 ## Techs
 - HTML5
 - CSS
